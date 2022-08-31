@@ -1,7 +1,12 @@
+body {
+    background-color: rgb(132, 168, 132);
+}
+
 .page {
     max-width: 960px;
     min-width: 300px;
     margin: 0 auto;
+    
   }
   
   html {

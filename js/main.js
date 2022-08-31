@@ -9,7 +9,7 @@ $(document).ready(function(){
     var randomAnswer = Math.floor(randomNumber * this.listofanswers.length);
     var answer = this.listofanswers[randomAnswer];
     
-    $("#8ball").effect( "shake" );
+    $("#8ball").effect( "spin" );
     $("#answer").text( answer );
     $("#answer").fadeIn(3000);
     $("#8ball").attr("src", "media/W-of-F-02.png");
@@ -21,11 +21,10 @@ $(document).ready(function(){
 
   var onClick = function()
   {
-    $("#8ball").velocity({ 
-    rotateZ: 360
-      }, 2000);
+    
     $("#answer").hide();
     $("#8ball").attr("src", "media/W-of-F-02.png");
+    
     var question = prompt("What do you want to know?");
     magic8Ball.getAnswer(question);
   };
