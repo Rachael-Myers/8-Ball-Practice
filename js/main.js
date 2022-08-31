@@ -12,7 +12,7 @@ $(document).ready(function(){
     $("#8ball").effect( "shake" );
     $("#answer").text( answer );
     $("#answer").fadeIn(3000);
-    $("#8ball").attr("src", "media\W-of-F-02.png");
+    $("#8ball").attr("src", "media/W-of-F-02.png");
 
     console.log(question);
     console.log(answer);
@@ -22,7 +22,7 @@ $(document).ready(function(){
   var onClick = function()
   {
     $("#answer").hide();
-    $("#8ball").attr("src", "media\W-of-F-02.png");
+    $("#8ball").attr("src", "media/W-of-F-02.png");
     var question = prompt("What do you want to know?");
     magic8Ball.getAnswer(question);
   };

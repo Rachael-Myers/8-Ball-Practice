@@ -36,7 +36,6 @@
   .answer {
     color: #222;
     text-transform: uppercase;
-    font-size: 400px;
     font-weight: 900;
     text-shadow: 1px 1px white;
     margin: 0;
@@ -44,7 +43,7 @@
     top: 38%;
     left: 46%;
     width: 11%;
-    font-size: 80%;
+    font-size: 95%;
   }
   
   #questionButton {
