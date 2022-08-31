@@ -36,14 +36,15 @@
   .answer {
     color: #222;
     text-transform: uppercase;
-    font-weight: 900;
-    text-shadow: 1px 1px white;
+    font-weight: 1000;
+    text-shadow: 3px 2px white;
     margin: 0;
     position: absolute;
     top: 38%;
     left: 46%;
     width: 11%;
-    font-size: 95%;
+    font-size: 150%;
+    text-align: center;
   }
   
   #questionButton {

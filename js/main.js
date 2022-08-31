@@ -21,6 +21,9 @@ $(document).ready(function(){
 
   var onClick = function()
   {
+    $("#8ball").velocity({ 
+    rotateZ: 360
+      }, 2000);
     $("#answer").hide();
     $("#8ball").attr("src", "media/W-of-F-02.png");
     var question = prompt("What do you want to know?");
