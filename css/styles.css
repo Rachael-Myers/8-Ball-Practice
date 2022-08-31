@@ -36,6 +36,9 @@
   .answer {
     color: #222;
     text-transform: uppercase;
+    font-size: 400px;
+    font-weight: 900;
+    text-shadow: 1px 1px white;
     margin: 0;
     position: absolute;
     top: 38%;
@@ -48,6 +51,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
     font-size: 1.875em;
+    text-shadow: 2px 2px black;
     color: #f8f8f8;
     background-color: #f16059;
     border-radius: 5px;
